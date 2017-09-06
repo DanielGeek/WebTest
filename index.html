@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
-<html lang="en" style="height:100%;" data-pgc-set-master>
+<!doctype html> 
+<html lang="en" style="height:100%;" data-pgc-master="master.html">
     <head> 
         <meta charset="utf-8"> 
         <title>Pinegrow Bootstrap Blocks</title>
@@ -24,7 +24,7 @@
     <![endif]-->         
     </head>     
     <body data-spy="scroll" data-target="nav">
-        <header id="header-2" class="soft-scroll header-2" data-pgc-define="myabakus.navbar" data-pgc-define-name="Nav Bar">
+        <header id="header-2" class="soft-scroll header-2" data-pgc="myabakus.navbar">
             <nav class="main-nav navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -85,8 +85,69 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-        <main class="pg-empty-placeholder" data-pgc-edit="myabakus.main"></main>
-        <section class="content-block-nopad bg-deepocean footer-wrap-1-1" data-pgc-define="myabakus.footer" data-pgc-define-name="Footer">
+        <main class="pg-empty-placeholder" data-pgc-field="myabakus.main">
+            <header id="header-3" class="soft-scroll header-3">
+                <nav>
+                    <div class="container">
+                        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                            <nav class="pull">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="#">Home <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Features <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+                <!-- /.nav -->
+                <section class="hero">
+                    <div class="container">
+                        <div class="brand">
+                            <a href="#">
+                                <img src="images/brand/pgblocks-logo-nostrap.png" class="brand-img img-responsive">
+                            </a>
+                        </div>
+                        <div class="navicon">
+                            <a id="nav-toggle" class="nav-slide-btn" href="#"><span></span></a>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="editContent">
+                                <h1>Pinegrow Blocks</h1>
+                            </div>
+                            <div class="editContent">
+                                <p class="lead">Lots of easy to use component blocks for fast Bootstrap site development</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-info btn-block">Find out more</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-danger btn-block">Buy here</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+        </main>
+        <section class="content-block-nopad bg-deepocean footer-wrap-1-1" data-pgc="myabakus.footer">
             <div class="container footer-1-1">
                 <div class="row">
                     <div class="col-sm-5">
